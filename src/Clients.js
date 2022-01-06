@@ -22,8 +22,9 @@ export default function Clients() {
                           <h6 className="sub-title ml-4 d-flex">Clients over time</h6>
                       </div>
                   </div>
+                  <Bars />
               </div>
-              <Bars />
+              
             </div>
         </div>
         
