@@ -1,0 +1,21 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: white;
+    color: black;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.card-title-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.ammount {
+    font-size: 2rem;
+}
