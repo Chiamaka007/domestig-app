@@ -9,7 +9,7 @@ export default function Sales() {
     return(
         
         <div className="card">
-       <div className="card-body card-inner">
+       <div className="card-body card-inner card-background">
         <div className="card-title-group">
         <div className="card-title ">Total Sales</div>  
         <div className="card-tools"><a href="#">View report</a></div>

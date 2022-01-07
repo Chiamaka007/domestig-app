@@ -1,33 +1,13 @@
-
+import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Clients from './Clients';
-import RegisteredDomestics from './RegisteredDomestics';
-import Sales from './Sales';
-
+import Dashboard from './pages/Dashboard';
 
 function App() {
   return (
-    <div className="App">
-  
-     <div className='header'>
-       <h1>Dashboard</h1>
-       <div className="row">
-         <div className="col-md-6">
-         <Sales />
-         </div>
-         <div className="col-md-6">
-         <Clients/>
-         </div>
-         
-       </div>
-       <RegisteredDomestics />
-      
-      
-      
-      
-     </div>
-    </div>
+    
+    <Dashboard/>
+
+    
   );
 }
 
